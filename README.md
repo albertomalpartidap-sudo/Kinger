@@ -1,2 +1,0 @@
-# Kinger
-AI conciente 
