@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asociados</title>
+<link rel="icon" type="image/svg" href="kinger-logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="brand">
+        <img src="kinger-logo.svg" alt="Kinger" class="brand-mark">
+
+      </a>
+      <nav class="site-nav">
+        <a href="index.html#precios" class="nav-link">Precios</a>
+        <a href="asociados.html" class="nav-link nav-link-active">Asociados</a>
+        <a href="chat.html" class="btn-nav-cta">Iniciar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="associates-hero wrap">
+      <p class="eyebrow">Asociados</p>
+      <h1>Súmate a lo que estamos construyendo</h1>
+      <p class="hero-sub">Kinger empezó como un asistente conversacional y ya está creciendo hacia un robot físico propio. Si te interesa asociarte o invertir en el proyecto, cuéntanos un poco de ti.</p>
+    </section>
+
+    <section class="associates-points wrap">
+      <div class="point">
+        <span class="point-icon" aria-hidden="true">🧠</span>
+        <h3>El proyecto</h3>
+        <p>Un asistente de IA conversacional, disponible en la web y en desarrollo como robot físico con presencia propia.</p>
+      </div>
+      <div class="point">
+        <span class="point-icon" aria-hidden="true">🚀</span>
+        <h3>La etapa</h3>
+        <p>En construcción activa — la base conversacional ya funciona y el cuerpo físico está en desarrollo.</p>
+      </div>
+      <div class="point">
+        <span class="point-icon" aria-hidden="true">🤝</span>
+        <h3>Qué buscamos</h3>
+        <p>Personas y organizaciones interesadas en acompañar el crecimiento del proyecto, como socios o inversionistas.</p>
+      </div>
+    </section>
+
+    <section class="associates-form-section wrap">
+      <div class="chat-card associates-card">
+        <div class="associates-card-header">
+          <h2>Escríbenos</h2>
+          <p>Cuéntanos quién eres y cómo te gustaría involucrarte.</p>
+        </div>
+        <form class="associates-form" id="associatesForm">
+          <label class="form-field">
+            <span>Nombre</span>
+            <input type="text" id="associateName" name="name" required autocomplete="name">
+          </label>
+          <label class="form-field">
+            <span>Correo</span>
+            <input type="email" id="associateEmail" name="email" required autocomplete="email">
+          </label>
+          <label class="form-field">
+            <span>Mensaje</span>
+            <textarea id="associateMessage" name="message" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="btn-primary btn-full">Enviar mensaje</button>
+          <p class="form-status" id="associatesStatus" hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <img src="assets/kinger-logo.png" alt="" class="footer-mark">
+        <p>Kinger</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#precios">Precios</a>
+        <a href="asociados.html">Asociados</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/associates.js"></script>
+</body>
+</html>
